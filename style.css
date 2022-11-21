@@ -4,6 +4,7 @@ body {
 
 h1 {
     font-size: 40px;
+    margin: 40px;
 }
 
 .orange-color {
@@ -21,4 +22,12 @@ section {
 .half-width img {
     width: 100%;
     padding: 10%;
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+p {
+    color: greenyellow;
 }
