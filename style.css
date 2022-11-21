@@ -3,21 +3,26 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin: 40px;
 }
 
-.orange-color {
-    color: chartreuse;
+h2 {
+    font-size: 40px;
 }
 
-section {
+.orange-color {
+    color: rgb(204, 171, 23);
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 40px;
 }
 
 .half-width {
     width: 50%;
+    padding-left: 2%;
 }
 
 .half-width img {
@@ -30,8 +35,52 @@ section {
     background-repeat: no-repeat;
 }
 
-.Dream-big{
+.Dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiences-itms {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(140, 253, 27);
+
+}
+
+#Web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gredient(rgb(35, 35, 219), rgb(169, 236, 11));
+    border-image-slice: 1;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gredient(rgb(233, 49, 28), rgb(28, 250, 46));
+    border-image-slice: 1;
+}
+
+p {
+    color: rgb(209, 23, 23);
+}
+
+h2 {
+    color: crimson;
+}
+
+h1 {
+    color: rgb(62, 30, 243);
+}
+
+h3 {
+    color: indigo;
 }
